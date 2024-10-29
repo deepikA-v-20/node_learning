@@ -1,0 +1,15 @@
+var os = require("os");
+console.log(os.arch());
+console.log(os.freemem());
+console.log(os.totalmem());
+console.log(os.hostname());
+console.log(`version ${os.version()}`);
+console.log(`uptime ${os.uptime()}`);
+console.log(`platform ${os.platform()}`);
+console.log(`networkinterface ${os.networkInterfaces()}`);
+console.log(`machine ${os.machine()}`);
+// console.log(`priority ${os.getPriority([1])}`);
+console.log(`eol ${os.EOL}`);
+// console.log(`dev ${os.devNull()}`);
+console.log(os.endianness());
+console.log(os.loadavg());
